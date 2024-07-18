@@ -1,0 +1,94 @@
+body {
+  background-color: #fefefe;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.title {
+  /* font-size: 20px; */
+  font-weight: bold;
+}
+
+
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.items .item {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 10px;
+  height: max-content;
+}
+
+.items .item .imageContainer {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.desc h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-wrap: wrap;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.techItem {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: #55555578;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-group {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn-group a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: none;
+  background-color: #3574d9;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
